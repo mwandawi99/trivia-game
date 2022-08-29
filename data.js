@@ -4,7 +4,7 @@ var data = [
     "questions": [
       {
         "points": 100,
-        "question": "<p>What part of your application does React focus on?</p><ol><li>The Model</li><li>The View</li><li>The Controller</li><li>All of the above</li></ol>",
+        "question": "<p>testing?</p><ol><li>The Model</li><li>The View</li><li>The Controller</li><li>All of the above</li></ol>",
         "answer": "B. The View"
       },
       {
