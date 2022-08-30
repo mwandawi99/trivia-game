@@ -1,76 +1,76 @@
 var data = [
   {
-    "category": "React 101",
+    "category": "IT 101",
     "questions": [
       {
         "points": 100,
-        "question": "<p>testing?</p><ol><li>The Model</li><li>The View</li><li>The Controller</li><li>All of the above</li></ol>",
-        "answer": "B. The View"
+        "question": "What Zendesk status do you use when you are waiting for a response from a user?",
+        "answer": "Pending"
       },
       {
         "points": 200,
-        "question": "_____ lets you create JavaScript objects using HTML syntax",
-        "answer": "JSX"
+        "question": "What approval(s) is required for secondary devices?",
+        "answer": "Supervisor & IT (Krystal/Clarissa)"
       },
       {
         "points": 300,
-        "question": "What tool can you use to transpile JSX?",
-        "answer": "Babel"
+        "question": "A Windows user is unable to add a printer using PrinterLogic even though they are clicking install. What do they do?",
+        "answer": "Refresh Configurations/End PrinterLogicInterface.exe tasks"
       },
       {
         "points": 400,
-        "question": "React uses a _____________ to limit direct manipulation of the DOM and improve performance",
-        "answer": "Virtual DOM"
+        "question": "A user is saying that their account is deactivated. What do you do first?",
+        "answer": "Check the tickets"
       }
     ]
   },
   {
-    "category": "React 201",
+    "category": "MBM/PBM",
     "questions": [
       {
         "points": 100,
-        "question": "<p>Where can you define a component's initial state when you use the ES6 Class syntax?</p><ol><li>getInitialState()</li><li>getInitialProps()</li><li>The component's constructor</li></ol>",
-        "answer": "C. The component's constructor"
+        "question": "What is the guiding principle that starts with the letter 'P'?",
+        "answer": "Principled Entrepreneurship"
       },
       {
         "points": 200,
-        "question": "Using npm, which package should you require/import in addition to 'react' to render a React component in an existing DOM element of your HTML file?",
-        "answer": "react-dom"
+        "question": "Is sharing your knowledge a part of a guiding principle? Which one? ",
+        "answer": "Yes, Knowledge"
       },
       {
         "points": 300,
-        "question": "<p>Which lifecycle function should you use to set default property values?</p><ol><li>getInitialState</li><li>getInitialProps</li><li>getDefaultProps</li></ol>",
-        "answer": "C. getDefaultProps"
+        "question": "How many Principles of Human Progress are there? What are they called?",
+        "answer": "5: Dignity, Openness, Bottom Up, Mutual Benefit. Self-Actualize"
       },
       {
         "points": 400,
-        "question": "Which lifecycle method is invoked once, immediately after the initial rendering occurs?",
-        "answer": "componentDidMount"
+        "question": "What are the five dimensions of the MBM framework?",
+        "answer": "Vision, Virtue & Talents, Knowledge Process, Decision Rights, Incentives"
       }
     ]
   },
   {
-    "category": "ES 2015",
+    "category": "The Office",
     "questions": [
       {
         "points": 100,
-        "question": "<p>Constants (const) are:</p><ol><li>Block scoped</li><li>Function scoped</li><li>Global</li></ol>",
-        "answer": "A. Block scoped"
+        "question": "Where can you find headsets in our IT Space?",
+        "answer": "The rightmost closet out of the 4 closets with the 1310 door code"
       },
       {
         "points": 200,
-        "question": "Name 3 new collection classes in ES2015",
-        "answer": "<ul><li>Map</li><li>WeakMap</li><li>Set</li><li>WeakSet</li></ul>"
+        "question": "I am a cold drink that everbody wants in the morning, where am I in the office?",
+        "answer": "Cold Brew - 2nd Floor"
       },
       {
         "points": 300,
-        "question": "<p>What's being logged and how is this new ES6 feature called?</p><code>var colors = ['red', 'blue', 'green'];<br/>var [primary, secondary, tertiary] = colors;<br/>console.log(secondary);</code>",
-        "answer": "<ul><li>blue</li><li>Array destructuring</li></ul>"
+        "question": "What are two soft drinks that can be found in 1310 but not in 1320?",
+        "answer": "Dr.Pepper & Mtn Dew"
       },
       {
         "points": 400,
-        "question": "<p>What's being logged and name 4 new features of ES6 used in this code snippet?</p><code>let greeting = (name, msg='Hello') => `${msg}, ${name}`;<br/>console.log(greeting('Christophe');</code>",
-        "answer": "<p>Hello, Christophe</p><ul><li>let variables</li><li>Arrow functions</li><li>Default parameters</li><li>Template strings</li></ul>"
+        "question": "What's the room number for the server room that keeps beeping all the time?",
+        "answer": "410"
       }
     ]
   },
@@ -79,23 +79,23 @@ var data = [
     "questions": [
       {
         "points": 100,
-        "question": "Using the proposed ECMAScript module syntax, how do you load the Mortgage.js module from the current directory and make all its members available in an object named mortgage?",
-        "answer": "<code>import * as mortgage from './Mortgage';</code>"
+        "question": "What is Earth's largest continent?",
+        "answer": "Asia"
       },
       {
         "points": 200,
-        "question": "What are the colors of the olympic rings?",
-        "answer": "<img src='assets/img/olympic_rings.png'/>"
+        "question": "Which of Newton's Laws states that for every action, there is an equal and opposite reaction?",
+        "answer": "The third law of motion"
       },
       {
         "points": 300,
-        "question": "What's the date of the first React commit on GitHub?",
-        "answer": "May 26th, 2013"
+        "question": "Which is the only edible food that never goes bad?",
+        "answer": "Honey"
       },
       {
         "points": 400,
-        "question": "What's the hex color of the React logo?",
-        "answer": "#61DAFB"
+        "question": "How many hearts does an octapus have?",
+        "answer": "3"
       }
     ]
   }
